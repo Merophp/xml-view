@@ -1,0 +1,23 @@
+{
+	"name": "merophp/xml-view",
+	"description": "XML view plugin for merophp/view-engine",
+	"license": "MIT",
+	"version": "0.1-alpha",
+	"authors": [
+        {
+            "name": "Robert Becker",
+            "role": "Lead"
+        }
+	],
+    "autoload": {
+        "psr-4": {"Merophp\\XmlViewPlugin\\": "src/"}
+    },
+    "require": {
+      "php": ">=7.4",
+      "merophp/view-engine": "^0.1",
+      "ext-dom": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
